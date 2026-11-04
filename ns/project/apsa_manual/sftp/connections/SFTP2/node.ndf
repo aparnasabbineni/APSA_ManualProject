@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">sftpAccount</value>
+  <value name="node_nsName">project.apsa_manual.sftp.connections:SFTP2</value>
+  <value name="node_pkg">APSA_ManualProject</value>
+  <value name="is_public">false</value>
+  <record name="accountDetails" javaclass="com.wm.util.Values">
+    <null name="agentGroup"/>
+    <value name="agentId">f704f91d7d42447ab82c0781c9b914d4</value>
+    <value name="authenticationType">password</value>
+    <value name="compression">none</value>
+    <value name="compressionLevel">6</value>
+    <value name="connectionName">SFTP2</value>
+    <value name="connectionTimeout">0</value>
+    <value name="connectionType">sagcloud</value>
+    <value name="connectorID">sftpconnector</value>
+    <value name="connectorType">sftp</value>
+    <value name="hostName">siqacloudstorage.blob.core.windows.net</value>
+    <null name="instanceId"/>
+    <value name="maxDHKeySize">8192</value>
+    <value name="maximumRetries">6</value>
+    <value name="minDHKeySize">1024</value>
+    <value name="packageName">APSA_ManualProject</value>
+    <value name="port">22</value>
+    <value name="preferredKeyExchangeAlgorithm">ecdh-sha2-nistp256</value>
+    <value name="projectName">APSA_Manual</value>
+    <value name="providerName">TechnologyConnector</value>
+    <value name="sessionTimeout">30</value>
+    <value name="strictHostKeyChecking">yes</value>
+    <null name="updateAsset"/>
+    <value name="userName">siqacloudstorage.siqacloudstorage.sftpuser</value>
+  </record>
+  <value name="assetId">APSA_ManualProject.project.apsa_manual.sftp.connections:SFTP2</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">bugbash2</value>
+    <value name="modifiedBy">bugbash2</value>
+    <value name="createdDate">2026-11-04T13:08:13.897294623Z</value>
+    <value name="lastModifiedDate">2026-11-04T13:08:13.897294623Z</value>
+  </record>
+</Values>

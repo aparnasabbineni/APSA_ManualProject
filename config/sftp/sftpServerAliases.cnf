@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="SFTPServerAliases" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="alias">project_apsa_manual_sftp_connections_SFTP2</value>
+        <value name="version">v1</value>
+        <value name="hostName">siqacloudstorage.blob.core.windows.net</value>
+        <value name="port">22</value>
+        <value name="preferredKeyExchangeAlgorithm">ecdh-sha2-nistp256</value>
+        <null name="proxyAlias"/>
+        <value name="hostKey">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPQr8QM6tsu4pI5sauyagt2OQWys0wFy/a6rHfvk17yBaHqV0cwnyxJzLLZr2qio5oRnz0VzTaoCgmVdiH4o4gg=</value>
+        <value name="preferredMACS2C">hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1</value>
+        <value name="preferredMACC2S">hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1</value>
+        <value name="preferredCiphersS2C">aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,arcfour,arcfour128,arcfour256</value>
+        <value name="preferredCiphersC2S">aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,arcfour,arcfour128,arcfour256</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>

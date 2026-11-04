@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="SFTPUserAliases" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="alias">project_apsa_manual_sftp_connections_SFTP2</value>
+        <value name="userName">siqacloudstorage.siqacloudstorage.sftpuser</value>
+        <value name="authenticationType">password</value>
+        <value name="sftpServerAlias">project_apsa_manual_sftp_connections_SFTP2</value>
+        <value name="password">wm.is.admin.sftpclient.password.APSA_ManualProject.project_apsa_manual_sftp_connections_SFTP2</value>
+        <value name="maximumRetries">6</value>
+        <value name="connectionTimeout">0</value>
+        <value name="sessionTimeout">30</value>
+        <value name="compression">none</value>
+        <value name="compressionLevel">6</value>
+        <value name="strictHostKeyChecking">yes</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>

@@ -7,7 +7,8 @@
         <value name="key">sftpPassword</value>
         <value name="value">gvhandle.sftpPassword</value>
         <value name="isSecure">true</value>
-        <value name="isLinkedToVault">false</value>
+        <value name="isLinkedToVault">true</value>
+        <value name="linkedVaultVariableName">sftpPassword</value>
       </record>
     </array>
   </record>
