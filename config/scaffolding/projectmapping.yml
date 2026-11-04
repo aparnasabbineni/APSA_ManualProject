@@ -1,0 +1,7 @@
+version: "1.0"
+projectName: APSA_ManualProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: APSAApp
+    type: clientapplication
