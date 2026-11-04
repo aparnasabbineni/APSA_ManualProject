@@ -5,10 +5,35 @@ packages:
 - name: APSA_ManualProject
   gitBranch: master
 - name: DADA_GlobalVariable1
+  version: "1.0"
   gitServerName: nram_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: Narayanasamy-Ramaiah-IBM01
   gitBranch: main
+- name: WmMQAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.apsa_manual.WmMQAdapter.com_wm_adapter_wmmqadapter_wmMQAdapter.connections:IBMMQ_1
+  packages:
+  - name: APSA_ManualProject
+    version: "1.0"
+  - name: WmMQAdapter
+    version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+- serviceName: project.apsa_manual.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: APSA_ManualProject
+    version: "1.0"
+  - name: WmMQAdapter
+    version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: DADA_GlobalVariable1
+    version: "1.0"
 configurationVariables:
   globalvariable.DADA_GlobalVariable1.APSAApp..GV1.isSecure: false
   globalvariable.DADA_GlobalVariable1.APSAApp..GV1.isLinkedToVault: "false"
