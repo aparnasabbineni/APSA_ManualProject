@@ -39,6 +39,8 @@ configurationVariables:
   globalvariable.DADA_GlobalVariable1.APSAApp..GV1.isLinkedToVault: "false"
   globalvariable.DADA_GlobalVariable1.APSAApp..GV1.value: testUpdated
   globalvariable.DADA_GlobalVariable1.APSAApp..GV2.isSecure: false
+  ? artListener.APSA_ManualProject.project.apsa_manual.WmMQAdapter.com_wm_adapter_wmmqadapter_wmMQAdapter.triggers.listeners.APSAMQ.listenerEnabled
+  : DISABLED
   globalvariable.DADA_GlobalVariable1.APSAApp..GV2.value: testUpdated
   globalvariable.DADA_GlobalVariable1.APSAApp..GV2.isLinkedToVault: "false"
   globalvariable.DADA_GlobalVariable1.APSAApp..GVtest.isSecure: true
