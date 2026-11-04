@@ -9,3 +9,13 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: Narayanasamy-Ramaiah-IBM01
   gitBranch: main
+configurationVariables:
+  globalvariable.DADA_GlobalVariable1.APSAApp..GV1.isSecure: false
+  globalvariable.DADA_GlobalVariable1.APSAApp..GV1.isLinkedToVault: "false"
+  globalvariable.DADA_GlobalVariable1.APSAApp..GV1.value: testUpdated
+  globalvariable.DADA_GlobalVariable1.APSAApp..GV2.isSecure: false
+  globalvariable.DADA_GlobalVariable1.APSAApp..GV2.value: testUpdated
+  globalvariable.DADA_GlobalVariable1.APSAApp..GV2.isLinkedToVault: "false"
+  globalvariable.DADA_GlobalVariable1.APSAApp..GVtest.isSecure: true
+  globalvariable.DADA_GlobalVariable1.APSAApp..GVtest.isLinkedToVault: "false"
+  globalvariable.DADA_GlobalVariable1.APSAApp..GVtest.value: "{AES}4wxb2JE71jcxIC3yFrohKQ=="
