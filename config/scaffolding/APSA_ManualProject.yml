@@ -25,6 +25,20 @@ services:
     wpmRegistry: licensed
   - name: DADA_GlobalVariable1
     version: "1.0"
+- serviceName: project.apsa_manual.integrations:SFTP
+  packages:
+  - name: APSA_ManualProject
+    version: "1.0"
+  - name: WmMQAdapter
+    version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+- serviceName: pub.client.sftp:ls
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1326
 - serviceName: project.apsa_manual.sftp.connections:SFTP2
   packages:
   - name: APSA_ManualProject
