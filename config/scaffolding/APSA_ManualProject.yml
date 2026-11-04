@@ -4,3 +4,8 @@ info:
 packages:
 - name: APSA_ManualProject
   gitBranch: master
+- name: DADA_GlobalVariable1
+  gitServerName: nram_shared
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: Narayanasamy-Ramaiah-IBM01
+  gitBranch: main
