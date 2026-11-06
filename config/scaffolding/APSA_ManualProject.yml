@@ -14,6 +14,10 @@ packages:
   version: 6.5.0.0.19
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: WmMongoDBAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+  wpmVersion: v9.12.0.5
 services:
 - serviceName: project.apsa_manual.integrations:Copy_MQService
   packages:
