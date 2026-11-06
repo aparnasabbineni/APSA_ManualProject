@@ -36,6 +36,10 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
   wpmVersion: v12.0.0
+- name: WxStateManager
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: public
+  wpmVersion: 1.0.20
 services:
 - serviceName: project.apsa_manual.integrations:Copy_MQService
   packages:
