@@ -44,6 +44,10 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: v2.1.0
+- name: WxNewRelicAgent
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: public
+  wpmVersion: latest
 services:
 - serviceName: project.apsa_manual.integrations:Copy_MQService
   packages:
