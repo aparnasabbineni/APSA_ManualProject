@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="listeners" javaclass="com.wm.util.Values">
+    <record name="HTTPSListener@7777" javaclass="com.wm.util.Values">
+      <value name="port">7777</value>
+      <value name="protocol">HTTPS</value>
+      <value name="pkg">APSA_ManualProject</value>
+      <value name="enabled">true</value>
+      <value name="key">HTTPSListener@7777</value>
+      <value name="uniqueID"></value>
+      <value name="portAlias">apsaapp_7777</value>
+      <value name="portDescription">Integration Server HTTPS port: 7777</value>
+      <value name="bindAddress"></value>
+      <value name="factoryKey">webMethods/HTTP</value>
+      <value name="configURL">/WmRoot/configHTTP.dsp</value>
+      <value name="provider">webMethods</value>
+      <value name="listenerType">Regular</value>
+      <value name="clientAuth">none</value>
+      <value name="idProvider">salesforce.com</value>
+      <value name="ssl">true</value>
+      <value name="maxQueue">200</value>
+      <value name="keepAliveTimeout">20000</value>
+      <value name="threadPool">false</value>
+      <value name="minThread">1</value>
+      <value name="maxThread">5</value>
+      <value name="threadPriority">5</value>
+      <value name="usedThreadCount">0</value>
+      <value name="internalPort">-1</value>
+      <value name="curDelay">0</value>
+      <value name="stepsize">10000</value>
+      <value name="suspended">false</value>
+      <value name="alias">ssos-cp4i</value>
+      <value name="keyStore">CP4I_TLS_KEYSTORE</value>
+      <value name="trustStore">DEFAULT_IS_TRUSTSTORE</value>
+      <null name="jsseDisabledProtocols"/>
+      <null name="jsseEnabledProtocols"/>
+    </record>
+  </record>
+  <record name="access" javaclass="com.wm.util.Values">
+    <record name="HTTPSListener@7777" javaclass="com.wm.util.Values">
+      <null name="home"/>
+      <value name="default">include</value>
+      <record name="nodes" javaclass="com.wm.util.StringSet">
+        <list name="elements">
+        </list>
+      </record>
+      <value name="key">HTTPSListener@7777</value>
+    </record>
+  </record>
+</Values>
