@@ -25,72 +25,127 @@ packages:
   wpmRegistry: licensed
   wpmVersion: 9.6.0.0.26
 - name: WmAmazonGlueProvider
+  version: 12.0.0.0.14
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
   wpmVersion: 12.0.0.0.14
 - name: WmAmazonDataPipelineProvider
+  version: 12.0.0.0.15
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
   wpmVersion: v12.0.0
 - name: WmAlibabaOSSProvider
+  version: 12.0.0
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
   wpmVersion: v12.0.0
 - name: WxStateManager
+  version: "1.0"
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: 1.0.20
 - name: WxAppDynamicsAgent
+  version: "3.0"
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: v2.1.0
 - name: WxNewRelicAgent
+  version: 1.2.1
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: latest
 - name: WmGoogleAIPlatformProvider
+  version: 12.0.0.0.9
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
   wpmVersion: v12.0.0
+- name: JcPublicTools
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: public
+  wpmVersion: "5.0"
 services:
 - serviceName: project.apsa_manual.integrations:Copy_MQService
   packages:
   - name: APSA_ManualProject
     version: "1.0"
+  - name: WxNewRelicAgent
+    version: 1.2.1
   - name: WmMQAdapter
     version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmAmazonGlueProvider
     version: 12.0.0.0.14
   - name: WmMongoDBAdapter
     version: 9.12.0.0.12
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: JcPublicTools
+    version: "5.0"
+  - name: WmGoogleAIPlatformProvider
+    version: 12.0.0.0.9
+  - name: WxAppDynamicsAgent
+    version: "3.0"
   - name: WmKafkaAdapter
     version: 9.6.0.0.26
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmAmazonDataPipelineProvider
+    version: 12.0.0.0.15
+  - name: WmAlibabaOSSProvider
+    version: 12.0.0
+  - name: WxStateManager
+    version: "1.0"
 - serviceName: project.apsamanual.WmMQAdapter.com_wm_adapter_wmmqadapter_wmMQAdapter.operations.actions:get
   packages:
   - name: APSAManualProject
     version: "1.0"
   - name: WmMQAdapter
     version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: JcPublicTools
     version: "5.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.apsa_manual.integrations:SFTP
   packages:
   - name: APSA_ManualProject
     version: "1.0"
+  - name: WxNewRelicAgent
+    version: 1.2.1
   - name: WmMQAdapter
     version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmAmazonGlueProvider
     version: 12.0.0.0.14
   - name: WmMongoDBAdapter
     version: 9.12.0.0.12
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: JcPublicTools
+    version: "5.0"
+  - name: WmGoogleAIPlatformProvider
+    version: 12.0.0.0.9
+  - name: WxAppDynamicsAgent
+    version: "3.0"
   - name: WmKafkaAdapter
     version: 9.6.0.0.26
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmAmazonDataPipelineProvider
+    version: 12.0.0.0.15
+  - name: WmAlibabaOSSProvider
+    version: 12.0.0
+  - name: WxStateManager
+    version: "1.0"
 - serviceName: pub.client.sftp:ls
   packages:
   - name: WmPublic
