@@ -5,3 +5,5 @@ runtimes:
   assets:
   - name: APSAApp
     type: clientapplication
+  - name: test
+    type: clientapplication
