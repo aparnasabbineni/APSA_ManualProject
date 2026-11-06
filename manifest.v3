@@ -11,7 +11,6 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="DADA_GlobalVariable1">1.0</value>
-    <value name="WmMQAdapter">6.5.0.0.19</value>
     <value name="WmMongoDBAdapter">9.12.0.0.12</value>
     <value name="WmKafkaAdapter">9.6.0.0.26</value>
     <value name="WmAmazonGlueProvider">12.0.0.0.14</value>
@@ -22,17 +21,18 @@
     <value name="WxNewRelicAgent">1.2.1</value>
     <value name="WmGoogleAIPlatformProvider">12.0.0.0.9</value>
     <value name="JcPublicTools">5.0</value>
+    <value name="WmMQAdapter">6.5.0.0.19</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">33</value>
+  <value name="build">34</value>
   <null name="description"/>
   <value name="created_date">04-11-2026 12:36:45 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-11-06T13:16:00.745091519Z</value>
+  <value name="lastUpdated">2026-11-06T16:31:14.518903876Z</value>
   <value name="creator"> </value>
 </Values>
