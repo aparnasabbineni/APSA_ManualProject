@@ -48,6 +48,10 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: latest
+- name: WmGoogleAIPlatformProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
+  wpmVersion: v12.0.0
 services:
 - serviceName: project.apsa_manual.integrations:Copy_MQService
   packages:
