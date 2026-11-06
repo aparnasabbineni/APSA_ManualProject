@@ -40,6 +40,10 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: 1.0.20
+- name: WxAppDynamicsAgent
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: public
+  wpmVersion: v2.1.0
 services:
 - serviceName: project.apsa_manual.integrations:Copy_MQService
   packages:
