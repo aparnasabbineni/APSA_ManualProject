@@ -3,7 +3,10 @@ info:
   model: int-scaffold
 packages:
 - name: APSA_ManualProject
-  gitBranch: master
+  gitServerName: aparnasabbineni
+  gitUrl: https://github.com/aparnasabbineni
+  gitUsername: aparnasabbineni
+  gitBranch: main
 - name: DADA_GlobalVariable1
   version: "1.0"
   gitServerName: nram_shared
