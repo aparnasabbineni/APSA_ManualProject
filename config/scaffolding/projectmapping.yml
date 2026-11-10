@@ -7,6 +7,8 @@ runtimes:
     type: clientapplication
   - name: APSA1cloned
     type: clientapplication
+  - name: APSAcloned10
+    type: clientapplication
 - runtimeAlias: fr02m
   assets:
   - name: APSAApp
