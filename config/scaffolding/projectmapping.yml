@@ -7,3 +7,5 @@ runtimes:
     type: clientapplication
   - name: test
     type: clientapplication
+  - name: APSA1cloned
+    type: clientapplication
