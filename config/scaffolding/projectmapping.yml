@@ -3,9 +3,11 @@ projectName: APSA_ManualProject
 runtimes:
 - runtimeAlias: Cloud Designtime
   assets:
-  - name: APSAApp
-    type: clientapplication
   - name: test
     type: clientapplication
   - name: APSA1cloned
+    type: clientapplication
+- runtimeAlias: fr02m
+  assets:
+  - name: APSAApp
     type: clientapplication
